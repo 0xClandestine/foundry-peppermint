@@ -1,0 +1,8 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+optimizer = false # faster compilation
+optimizer-runs = 10_000_000
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
