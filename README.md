@@ -1,16 +1,16 @@
 <img align="right" top="100" src="./asset.png">
 
-# foundry-peppermint • [![ci](https://github.com/abigger87/femplate/actions/workflows/ci.yml/badge.svg)](https://github.com/abigger87/femplate/actions/workflows/ci.yml) ![license](https://img.shields.io/github/license/abigger87/femplate?label=license) ![solidity](https://img.shields.io/badge/solidity-^0.8.13-lightgrey)
+# foundry-peppermint • ![license](https://img.shields.io/github/license/0xClandestine/foundry-peppermint?label=license) ![solidity](https://img.shields.io/badge/solidity-^0.8.13-lightgrey)
 
 A **Clean**, **Robust** Template for Foundry Projects.
 
 ## Getting Started
 
-Click [`use this template`](https://github.com/abigger87/femplate/generate) to create a new repository with this repo as the initial state.
+Click [`use this template`](https://github.com/0xClandestine/foundry-peppermint/generate) to create a new repository with this repo as the initial state.
 
 Or, if your repo already exists, run:
 ```sh
-forge init --template https://github.com/abigger87/femplate
+forge init --template https://github.com/0xClandestine/foundry-peppermint
 git submodule update --init --recursive
 forge install
 ```
@@ -73,12 +73,13 @@ forge test
 
 ## License
 
-[AGPL-3.0-only](https://github.com/abigger87/femplate/blob/master/LICENSE)
+[AGPL-3.0-only](https://github.com/0xClandestine/foundry-peppermint/blob/master/LICENSE)
 
 
 ## Acknowledgements
 
-- [femplate](https://github.com/abigger87/femplate)
+- [solidity-sandbox](https://github.com/maurelian/solidity-sandbox)
+- [foundry-peppermint](https://github.com/0xClandestine/foundry-peppermint)
 - [foundry](https://github.com/foundry-rs/foundry)
 - [solmate](https://github.com/Rari-Capital/solmate)
 - [forge-std](https://github.com/brockelmore/forge-std)
